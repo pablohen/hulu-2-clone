@@ -18,7 +18,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
           `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
           `${BASE_URL}${result.poster_path}`
         }
-        alt={result.title}
+        alt={result.title || result.original_name}
       />
 
       <div className="p-2">

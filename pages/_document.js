@@ -10,7 +10,6 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <title>Hulu 2.0</title>
           <meta name="description" content="Hulu clone made with Next.js" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
